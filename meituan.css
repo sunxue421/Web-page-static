@@ -1,0 +1,1065 @@
+*{
+     margin:0px;
+     padding:0;
+     list-style: none;  
+     text-decoration: none;  
+     color:#666;
+     }
+.usernav-wrapper{
+     width:100%;
+     background-color:#f9f9f9;
+      border-bottom:1px solid #eee;
+}
+.usernav-wrapper .usernav-content{
+    /* border:1px solid black;*/
+     width:1190px;
+     margin:0 auto;
+     height:35px;
+}
+.usernav-wrapper .usernav-content:after{
+     content:"";
+     display:block;
+     clear:both;
+    
+ }
+.usernav-wrapper  .usernav-content-left{
+      /*border:1px solid red;*/
+      float: left;
+}
+.usernav-wrapper  .usernav-content-left li{
+      float:left;
+      padding:0 7px;
+}
+/*密码位数过多溢出*/
+ .usernav-wrapper .usernav-content .usernav-content-left .nm{
+     max-width :98px;
+     white-space:nowrap;
+     overflow:hidden;
+     text-overflow:ellipisis;
+ }
+.usernav-wrapper .usernav-content .usernav-content-left li div{
+     height:35px;
+     line-height:35px;
+}
+.usernav-wrapper  .usernav-content-left{
+     /* border:1px solid red;*/
+      float: left;
+}
+.usernav-wrapper .usernav-content .usernav-content-left  .demo a:hover{
+ 
+      color:#2bb8aa;
+      text-decoration: underline;
+ }
+ .usernav-wrapper .usernav-content .usernav-content-left  .demo1 a:hover{
+ 
+      color:#2bb8aa;
+ }
+.usernav-wrapper .usernav-content .usernav-content-left li a{
+     margin-right:7px;
+     float:left;
+     font-size:13px;
+     color:#6c6c6c;
+   }
+.usernav-wrapper .usernav-content .usernav-content-left li span{
+    float:left;
+     margin-right:0px;
+      margin-top: 14px;
+      width:5px;
+      height:5px;
+     /* background-color:red;*/
+      background-image:url("sj.png");
+      background-position: 0 0px;
+    /*  border:1px solid red;*/
+      background-size: 6px 6px;
+      }
+.usernav-wrapper .usernav-content .usernav-content-left .demo .zhm{
+    float:left;
+     margin-right:7px;
+      margin-top: 13px;
+      width:10px;
+      height:10px;
+     /* background-color:red;*/
+      background-image:url("hy.png");
+      background-position: 0 0px;
+     /* border:1px solid red;*/
+      background-size: 9px 9px;
+      background-repeat: no;
+}
+.usernav-wrapper .usernav-content .usernav-content-left li .sc{
+    float:left;
+     margin-right:7px;
+      margin-top: 10px;
+      width:15px;
+      height:15px;
+     /* background-color:red;*/
+      background-image:url("sc.png");
+      background-position: 0 0px;
+     /* border:1px solid red;*/
+      background-size: 15px 15px;
+      background-repeat: no;
+}
+ .usernav-wrapper .usernav-content-right{
+      float:right;
+
+ }
+ .usernav-wrapper  .usernav-content-right li{
+      float:left;
+      padding:0px  5px;
+     /* padding-right: 5px;*/
+
+}
+/*竖线*/
+.usernav-wrapper  .usernav-content-right  li.line{
+  height:35px;
+  line-height:35px;
+  color:#ccc;
+
+}
+.usernav-wrapper  .usernav-content-right li div{
+     height:35px;
+     line-height:35px;
+}
+.usernav-wrapper .usernav-content .usernav-content-right li a{
+     margin-right:7px;
+     float:left;
+     font-size:12px;
+     color:#6c6c6c;
+ }
+ .usernav-wrapper .usernav-content .usernav-content-right li a:hover{
+ 
+      color:#2bb8aa;
+ }
+ .usernav-wrapper .usernav-content .usernav-content-right li span{
+    float:left;
+     margin-right:7px;
+      margin-top: 14px;
+      width:5px;
+      height:5px;
+     /* background-color: red;*/
+      background-image:url("sj.png");
+      background-position: 0 0px;
+     /* border:1px solid black;*/
+      background-size: 6px 6px;
+
+
+ }
+ /*框架*/
+ .meituan-body{
+      width:1190px;
+      margin:0 auto;
+      height:200px;
+     /* background-color:orange;*/
+
+  }
+  .meituan-body .head{
+       position:relative;
+       height:108px;
+       /*border:1px solid red;*/
+      /* padding-top:18px;*/
+   }
+   .meituan-body .head-search{
+      margin:0 220px 0 250px;
+      /*background-color:red;*/
+      height:100px;
+    }
+   .meituan-body .head-logo{
+      width:105px;
+      height:70px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    position:absolute;
+      left:0px;
+      top:15px;
+  }
+  .meituan-body .head-logo .logo{
+      display:block;
+      width:146px;
+      height:0px;
+      padding-top:60px; 
+      overflow:hidden;
+  }
+  .meituan-body .head-logo .city{
+      float:left;
+    margin: -50px 0 0 120px;
+    width: 123px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+  }
+  .meituan-body .head-logo .change{
+   float:right;
+    border: 1px solid #eee;
+    padding: 2px 5px;
+    margin: -20px -73px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    background: #fff;
+  }
+  .meituan-body .head-photo {
+
+       position:absolute;
+       right:10;
+       top:15px;
+        cursor:pointer;
+       text-align: center;
+       width:300px;
+       height:20px;
+       padding:5px;
+
+  }
+  img{
+    padding:7px 21px 0 21px;
+  }
+   .meituan-body .head-photo .td{
+    padding-left: 32px;
+    padding-right: 32px;
+   }
+
+   .meituan-body .head-photo  .photofoot {
+     float:right;
+      height:5px;
+   }
+    .meituan-body .head-photo  .photofoot a{
+        float:left;
+        margin-right:30px;
+        color:#999;
+   }
+
+  }
+  .meituan-body .head-search .search-head li{
+       /*float:left;*/
+       text-align:center;
+       width:50px;
+       height:25px;
+       cursor:pointer;
+
+
+  }
+  .meituan-body .head-search .search-head li a{
+     /* float:left;*/
+       display:block;
+       width:50px;
+       height:26px;
+       color: rgb(60,60,60);
+
+  }
+  .meituan-body .head-search .search-box{
+       position:relative;
+       height:35px;
+       width:500px;
+       border-width:2px 0 px 2px;
+       border-style:solid;
+       border-color:#2bb8aa;
+       top:25px;
+       left:70px;
+  }
+  .meituan-body .head-search .content{
+      padding-left: 6px 0;
+      text-indent:10px;
+      height:35px;
+      line-height:42px;
+      width:500px;
+      border:0;
+      outline:0;
+      background:#fff;
+    }
+    .meituan-body .head-search  .submit{
+    position:absolute;
+    width: 70px;
+    height: 38px;
+    border: 1px solid #2bb8aa;
+    background: #2bb8aa;
+    color: #f5f5f2;
+    font-size: 18px;
+    top:-2px;
+     right:-1px;
+    }
+    .meituan-body .head-search  .search-head li a.choosen{
+    width: 80px;
+    height: 50px;
+    border: 1px solid #2bb8aa;
+    background: #fff;
+    color: #666;
+    font-size: 18px;
+    
+    }
+.meituan-body .head-search  .searchfoot-nav{
+      padding-top:35px;
+      height:10px;
+     margin-left:60px;
+   }
+   .meituan-body .head-search .searchfoot-nav a{
+        float:left;
+        font-size:12px;
+        margin:0 11px;
+        color:#6c6c6c;
+        
+   }
+ .meituan-body .head-search .searchfoot-nav a:hover{
+        color:#2bb8aa;
+      text-decoration: underline;
+   }
+
+
+
+
+ .meituan-body .tradeNav:after{
+   content:"";
+   display:block;
+   clear:both;
+}
+ 
+  .meituan-body .tradeNav .main{
+     float:left;
+     width:100%;
+     /*height:200px;*/
+    /* margin-left: 200px;无用*/
+ }
+ .meituan-body .tradeNav .main .cont{
+   margin-left:240px;
+   /*background-color:orange;*/
+  /* height:200px;*/
+   /*border:1px solid orange;*/
+   }
+   .meituan-body .tradeNav .main .cont:after{
+       content:"";
+       display:block;
+       clear:both;
+   }
+ .meituan-body .tradeNav .main .cont .nav1{
+  
+   background-color:2bb8aa;
+  /* height:200px;*/
+  /* border:1px solid orange;*/
+   }
+.meituan-body .tradeNav .serve{
+     float:left;
+     width:238px;
+     /*height:200px;*/
+     margin-left:-100%;
+     /*background-color:black;*/
+     border:1px solid #eee;
+}
+
+ .meituan-body .tradeNav .main .type1{
+      margin-top: 1px;
+    /*  margin-left:0px;*/
+      height:42px;
+   }
+ .taobao-body .tradeNav .type1{
+     float:left;
+}
+ .meituan-body .tradeNav .main .type1 li{
+    float:left;
+    text-size:16x;
+    font-weight: 700;
+}
+.meituan-body .tradeNav .nav1 .type1 a{
+   padding: 0px 7px  0px;
+    width:88px;
+    color:#fff;
+    display:block;
+    text-align: center;
+    height:42px;
+    line-height:42px;
+    overflow:hidden;
+    float:left;
+    font-size:15px;
+   
+}
+.meituan-body .tradeNav .nav1 .type1 a:hover{
+   background-color :#2bc7aa;
+   /*opacity:0.9;*/
+  
+  }
+.meituan-body .tradeNav .main .nav2{
+  
+   /*background-color:;*/
+  /* height:200px;*/
+  width:718px;
+  margin:0 10px;
+
+   border-bottom:1px solid #eee;
+   }
+   .meituan-body .tradeNav .main .type2{
+      padding:14px 0;
+      height:24px;
+   }
+ 
+ .meituan-body .tradeNav .main .type2 li{
+      margin-right:25px;
+    float:left;
+    text-size:16x;
+    font-weight: 400;
+}
+
+.meituan-body .tradeNav .main  .cd1 a{
+ 
+    width:48px;
+    color:#999999;
+    display:block;
+    text-align: center;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+    float:left;
+    font-size:12px;
+   
+}
+.meituan-body .tradeNav .nav2 .type2 .cd2 a{
+  
+    width:40px;
+    color:#f76120;
+    display:block;
+    text-align: center;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+    float:left;
+    font-size:12px;
+   
+}
+.meituan-body .tradeNav .nav2 .type2 .cd3 a{
+ 
+    width:48px;
+    color:#666;
+    display:block;
+    text-align: center;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+    float:left;
+    font-size:12px;
+   
+}
+.meituan-body .tradeNav .nav2 .type2  .cd4 a{
+  
+    width:80px;
+    color:#666;
+    display:block;
+    text-align: center;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+    float:left;
+    font-size:12px;
+}
+.meituan-body .tradeNav .nav2 .type2 span{
+      float:left;
+     margin-left:14px;
+      margin-right:4px;
+      margin-top: 0px;
+      width:20px;
+      height:20px;
+     /* background-color: red;*/
+      background-image:url("remen.png");
+      background-position: 0 0px;
+     /* border:1px solid black;*/
+      background-size: 24px 24px;
+}
+
+   .meituan-body .tradeNav .main .type2{
+
+      padding:14px 0;
+      height:24px;
+   }
+ 
+
+.meituan-body .tradeNav .main .nav3{
+  
+   /*background-color:;*/
+  /* height:200px;*/
+    width:718px;
+    margin:0 10px;
+
+   border-bottom:1px solid #eee;
+   }
+   .meituan-body .tradeNav .main .type3{
+      padding:14px 0;
+      height:24px;
+   }
+ 
+ .meituan-body .tradeNav .main .type3 li{
+      margin-right:25px;
+    float:left;
+    text-size:16x;
+    font-weight: 400;
+}
+
+.meituan-body .tradeNav .nav3 .type3 .cd a{
+  
+    width:40px;
+    color:#666;
+    display:block;
+    text-align: center;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+    float:left;
+    font-size:12px;
+   
+}
+.meituan-body .tradeNav .nav3 .type3 span{
+      float:left;
+     margin-left:14px;
+      margin-right:4px;
+      margin-top: 0px;
+      width:20px;
+      height:20px;
+     /* background-color: red;*/
+      background-image:url("weizhi.png");
+      background-position: 0 0px;
+     /* border:1px solid black;*/
+      background-size: 23px 23px;
+}
+.meituan-body .tradeNav .main .nav4{
+  
+   /*background-color:;*/
+  /* height:200px;*/
+   width:718px;
+   margin:0 10px;
+
+   border-bottom:1px solid #eee;
+   }
+   .meituan-body .tradeNav .main .type4{
+      padding:14px 0;
+      height:24px;
+   }
+ 
+ .meituan-body .tradeNav .main .type4 li{
+      margin-right:23px;
+    float:left;
+    text-size:16x;
+    font-weight: 400;
+}
+
+.meituan-body .tradeNav .nav4 .type4  .cd5 a{
+  
+    width:48px;
+    color:#666;
+    display:block;
+    text-align: center;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+    float:left;
+    font-size:12px;
+}
+.meituan-body .tradeNav .nav4 .type4 .cd6 a{
+    width:80px;
+    color:#666;
+    display:block;
+    text-align: center;
+    height:24px;
+    line-height:24px;
+    overflow:hidden;
+    float:left;
+    font-size:12px;
+   
+}
+.meituan-body .tradeNav .nav4 .type4 span{
+      float:left;
+     margin-left:14px;
+      margin-right:4px;
+      margin-top: 0px;
+      width:20px;
+      height:20px;
+     /* background-color: red;*/
+      background-image:url("shangquan.png");
+      background-position: 0 0px;
+     /* border:1px solid black;*/
+      background-size: 23px 23px;
+}
+.meituan-body .tradeNav .main .cd a:hover{
+      color:2bb8aa;
+
+} 
+.meituan-body .tradeNav .main .cd2 a:hover{
+      color:2bb8aa;
+}
+.meituan-body .tradeNav .main .cd3 a:hover{
+      color:2bb8aa;
+}
+.meituan-body .tradeNav .main .cd4 a:hover{
+      color:2bb8aa;
+}
+.meituan-body .tradeNav .main .cd5 a:hover{
+      color:2bb8aa;
+
+} 
+.meituan-body .tradeNav .main .cd6 a:hover{
+      color:2bb8aa;
+
+} 
+.meituan-body .tradeNav  .pic1 .fir{
+     float:left;
+    
+}
+.meituan-body .tradeNav  .pic2{
+     float:left;
+}
+.meituan-body .tradeNav .indi{
+     float:right;
+}
+.meituan-body .tradeNav .pic1 .fir{
+     margin-left:2px;
+     position:relative;
+     width:355px;
+     height:260px;
+     overflow:hidden;
+   
+    
+   }
+.meituan-body .tradeNav .pic2 .fir{
+   
+     position:relative;
+     width:355px;
+     height:260px;
+     overflow:hidden;
+     
+   }
+   .meituan-body .tradeNav .pic2 .kuang{
+      float:left;
+      width:365px;
+      height:318px;
+     margin-left: -7px;
+      border-bottom:1px solid #eee;
+     
+   }
+   .meituan-body .tradeNav .pic1  .kuang{
+      float:left;
+      width:370px;
+      height:318px;
+      border-right:1px solid #eee;
+      border-position:center;
+      border-bottom:1px solid #eee;
+     
+   }
+   
+.meituan-body .pic-foot1 a{
+   margin-left:21px;
+   display: block;
+    width: 214px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+  }
+.meituan-body .pic-foot2 a{
+  margin-left:20px;
+   display: block;
+    width: 214px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+  }
+.meituan-body .pic-foot1 p{
+    margin-left: 20px;
+    position: relative;
+    width: 214px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #999;
+  }
+  .meituan-body .pic-foot2 p{
+    margin-left: 20px;
+    position: relative;
+    width: 214px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #999;
+  }
+  .meituan-body .pic-foot1 a:hover{
+     text-decoration: underline;
+  }
+  .meituan-body .pic-foot2 a:hover{
+     text-decoration: underline;
+  }
+  .meituan-body .pic-foot1 .price1 {
+    font-size: 30px;
+    color: #f76120;
+    position: relative;
+    float: right;
+    width: 108px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 70px;
+    text-align: right;
+    font-weight: 400;
+    margin:-55px 13px 0 0;
+     font-weight: bold;
+  }
+   .meituan-body .pic-foot2 .price2 {
+    font-size: 30px;
+    color: #f76120;
+    position: relative;
+    float: right;
+    width: 108px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 70px;
+    text-align: right;
+    font-weight: 400;
+    margin:-55px 8px 0 0;
+    font-weight: bold;
+  }
+  
+  .meituan-body .tradeNav .serve .type1{
+   padding-top: 3px;
+    /*border-right:1px solid #eee;*/
+    background-color:#2bb8aa;
+   padding-left: 15px;
+    width: 225px;
+    height: 39px;
+    line-height: 38px;
+    cursor: default;
+    text-align: left;
+    font-weight: 400;
+    background-position: 0 -31px;
+    color:#fff;
+  }
+  .meituan-body .tradeNav .serve .type1 span{
+      color:#fff;
+  }
+  .meituan-body .tradeNav .serve .type2 {
+    width: 238px;
+    height: 52px;
+    background-color: #fff;
+     border-bottom:1px solid #eee;
+  }
+  .meituan-body .tradeNav .serve .type2 .data{
+     float: left;
+     min-width: 94px;
+     text-align: left;
+     font-size:14px;
+     font-weight:600;
+     padding-left: 15px;
+      padding-top: 15px;
+      color:#333;
+
+  }
+  .meituan-body .tradeNav .serve .type2 .data1{
+     float: right;
+     min-width: 94px;
+     text-align: left;
+     font-size:12px;
+     font-weight:400;
+      padding-top: 18px;
+    }
+    .meituan-body .tradeNav .serve .type2 .data1 a{
+          color:#999;
+          padding:0 3px;
+          
+    }
+    .meituan-body .tradeNav .serve .type2 .data1 span{
+          color:#ccc;
+          padding-right:10px;
+
+    }
+    .meituan-body .tradeNav .serve .type3 {
+    width: 238px;
+    height: 52px;
+    background-color: #fff;
+     border-bottom:1px solid #eee;
+  }
+  .meituan-body .tradeNav .serve .type3 .data{
+     float: left;
+     min-width: 94px;
+     text-align: left;
+     font-size:14px;
+     font-weight:600;
+     padding-left: 15px;
+      padding-top: 15px;
+      color:#333;
+
+  }
+  .meituan-body .tradeNav .serve .type3 .data1{
+     float: right;
+     min-width: 94px;
+     text-align: left;
+     font-size:12px;
+     font-weight:400;
+      padding-top: 18px;
+    }
+    .meituan-body .tradeNav .serve .type3 .data1 a{
+          color:#999;
+          padding:0 3px;
+          
+    }
+    .meituan-body .tradeNav .serve .type3 .data1 span{
+          color:#ccc;
+          padding-right:10px;
+
+    }
+    .meituan-body .tradeNav .serve .type4 {
+    width: 238px;
+    height: 52px;
+    background-color: #fff;
+    border-bottom:1px solid #eee;
+
+  }
+  .meituan-body .tradeNav .serve .type4 .data{
+     float: left;
+     min-width: 94px;
+     text-align: left;
+     font-size:14px;
+     font-weight:600;
+     padding-left: 15px;
+      padding-top: 15px;
+      color:#333;
+
+  }
+  .meituan-body .tradeNav .serve .type4 .data1 span{
+     float: right;
+     min-width: 50px;
+     text-align: right;
+     font-size:12px;
+      padding-top: 18px;
+      padding-right: 15px;
+      color:#ccc;
+
+         
+
+    }
+    
+   .meituan-body .tradeNav .serve .type5 {
+    width: 238px;
+    height: 52px;
+    background-color: #fff;
+     border-bottom:1px solid #eee;
+  }
+  .meituan-body .tradeNav .serve .type5 .data{
+     float: left;
+     min-width: 94px;
+     text-align: left;
+     font-size:14px;
+     font-weight:600;
+     padding-left: 15px;
+      padding-top: 15px;
+      color:#333;
+
+  }
+  .meituan-body .tradeNav .serve .type6 {
+    width: 238px;
+    height: 52px;
+    background-color: #fff;
+     border-bottom:1px solid #eee;
+  }
+  .meituan-body .tradeNav .serve .type6 .data{
+     float: left;
+     min-width: 94px;
+     text-align: left;
+     font-size:14px;
+     font-weight:600;
+     padding-left: 15px;
+      padding-top: 15px;
+      color:#333;
+
+  }
+  .meituan-body .tradeNav .serve .type6 .data1{
+     float: right;
+     min-width: 94px;
+     text-align: left;
+     font-size:12px;
+     font-weight:400;
+      padding-top: 18px;
+    }
+    .meituan-body .tradeNav .serve .type6 .data1 a{
+          color:#999;
+          padding:0px;
+          
+    }
+    .meituan-body .tradeNav .serve .type6 .data1 span{
+        color:#ccc;
+          padding-right:10px;
+
+    }
+    .meituan-body .tradeNav .serve .type7 {
+    width: 238px;
+    height: 52px;
+    background-color: #fff;
+     border-bottom:1px solid #eee;
+  }
+  .meituan-body .tradeNav .serve .type7 .data{
+     float: left;
+     min-width: 94px;
+     text-align: left;
+     font-size:14px;
+     font-weight:600;
+     padding-left: 15px;
+      padding-top: 15px;
+      color:#333;
+
+  }
+  .meituan-body .tradeNav .serve .type7 .data1 span{
+     float: right;
+     min-width: 94px;
+     text-align: right;
+     font-size:12px;
+      padding-top: 18px;
+      padding-right: 15px;
+      color:#ccc;
+
+         
+
+    }
+    
+   
+    .meituan-body .tradeNav .serve .type8 {
+    width: 238px;
+    height: 52px;
+    background-color: #fff;
+     border-bottom:1px solid #eee;
+  }
+  .meituan-body .tradeNav .serve .type8 .data{
+     float: left;
+     min-width: 50px;
+     text-align: left;
+     font-size:14px;
+     font-weight:600;
+     padding-left: 15px;
+      padding-top: 15px;
+      color:#333;
+
+  }
+.meituan-body .tradeNav .serve .type8 .data1{
+     float: right;
+     min-width: 94px;
+     text-align: left;
+     font-size:12px;
+     font-weight:400;
+      padding-top: 18px;
+      padding-right: 16px;
+
+    }
+.meituan-body .tradeNav .serve .type8 .data1 a{
+          color:#999;
+          padding:0 3px;
+        right:5px;
+          margin-right:3px;
+    }
+  .meituan-body .tradeNav .serve .type9 {
+    width: 238px;
+    height: 52px;
+    background-color:#fff ;
+     border-bottom:1px solid #eee;
+  }
+  .meituan-body .tradeNav .serve .type9 .data{
+     float: left;
+     min-width: 94px;
+     text-align: left;
+     font-size:14px;
+     font-weight:600;
+     padding-left: 15px;
+      padding-top: 15px;
+      color:#333;
+
+  }
+.meituan-body .tradeNav .serve .type9 .data1{
+     float: right;
+     min-width: 94px;
+     text-align: left;
+     font-size:12px;
+     font-weight:400;
+      padding-top: 18px;
+    }
+.meituan-body .tradeNav .serve .type9 .data1 a{
+          color:#999;
+          padding:0 px;
+          
+    }
+ .meituan-body .tradeNav .serve .type9 .data1 span{
+           color:#ccc;
+          padding-right:10px;
+
+    }
+    .meituan-body .tradeNav .serve .type10 {
+    width: 238px;
+    height: 52px;
+    background-color: #fff;
+     border-bottom:1px solid #eee;
+  }
+ .meituan-body .tradeNav .serve .type10 .data{
+     float: left;
+     min-width: 94px;
+     text-align: left;
+     font-size:14px;
+     font-weight:600;
+     padding-left: 15px;
+      padding-top: 15px;
+      color:#333;
+
+  }
+.meituan-body .tradeNav .serve .type10 .data1{
+     float: right;
+     min-width: 94px;
+     text-align: left;
+     font-size:12px;
+     font-weight:400;
+      padding-top: 18px;
+    }
+ .meituan-body .tradeNav .serve .type10 .data1 a{
+          color:#999;
+          padding:0 1px;
+          
+    }
+ .meituan-body .tradeNav .serve .type10 .data1 span{
+         color:#ccc;
+          padding-right:10px;
+
+    }
+.meituan-body .tradeNav .serve .data1 a:hover{
+       color:2bb8aa;
+
+    }
+.meituan-body .tradeNav .serve .data a:hover{
+       color:2bb8aa;
+
+    }
+.meituan-body .tradeNav  .main  .indi .fir{
+      float:right;
+      width:210px;
+      height:157px;
+      border:1px solid #eee;
+     
+     
+   }
+.meituan-body .tradeNav  .main  .indi img{
+      float:left;
+
+       margin:-8px 0 0-15px;
+    }
+.meituan-body .tradeNav  .main  .indi .sec{
+      float:right;
+      width:210px;
+      height:317px;
+      border:1px solid #eee;
+     
+     
+   }
+.meituan-body .tradeNav  .main  .indi .title-main {
+    margin-top: 51px;
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+.meituan-body .tradeNav  .main  .indi  .title-main .title {
+    color: #999;
+    font-size: 14px;
+}
